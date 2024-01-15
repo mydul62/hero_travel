@@ -1,0 +1,92 @@
+@media screen and (max-width: 600px) {
+  .container{
+    width: 95%;
+  }
+  /* header section  */
+  .header_banner {
+    padding: 0;
+  }
+  .header_section .menu ul {
+    display: none;
+  }
+  .header_section .logo {
+    width: 70%;
+  }
+  .header_section .logo h2 a{
+    font-size: 21.5px;
+  }
+  .header_section .menu {
+    width: 20%;
+    display: flex;
+ 
+  }
+  .header_section .menu {
+    width: 20%;
+    display: flex;
+ 
+  }
+  .header_section .menu div {
+    display: block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .header_banner{
+    padding: 32px 24px;
+  }
+.search_palace {
+  margin:0;
+  display: block;
+
+}
+.search_palace .quary{
+  width: 94%;
+  margin-bottom: 16px;
+}
+.search_palace .btn_find {
+  background: #ff5400;
+}
+.header_banner .discription h1 {
+  font-size: 22px;
+}
+.header_banner .discription p {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+/* tour section  */
+.popular_section {
+  margin:24px;
+} 
+.popular_tour{
+  flex-direction: column;
+}
+.popular_tour .tour_discription{
+  width: 100%;
+  height: 100%;
+}
+.tour_image{
+  width: 100%; 
+}
+.beutifull_contry{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 24px;
+}
+.beutifull_contry div {
+
+}
+.beutifull_contry div img{
+  width: 100%;
+  object-fit: cover;
+}
+/* .Maldives,.Indonesia,
+.Srilanka,
+.North_America,
+.Kashmir,
+.Bangladesh,
+.Bandarban{
+  grid-column:span 12;
+} */
+}

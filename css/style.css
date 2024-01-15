@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,600&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  width: 81%;
+  margin: 0 auto;
+}
+/* common css  */
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/** header section ***********/
+
+.header_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header_section .logo {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header_section .logo h2 {
+  text-transform: capitalize;
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.header_section .logo img {
+  width: 48px;
+  height: 56.008px;
+  flex-shrink: 0;
+}
+
+.header_section .menu {
+  width: 55%;
+  display: flex;
+}
+.header_section .menu div {
+  display: none;
+}
+.header_section .menu ul {
+  display: flex;
+  gap: 44px;
+  justify-content: end;
+}
+
+.header_section .menu ul li a {
+  text-transform: capitalize;
+  color: #ff5400;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* banner section  */
+
+.header_banner {
+  padding: 106px 0;
+  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+.discription {
+  max-width: 676px;
+  width: 82%;
+  margin: auto;
+  text-align: center;
+}
+.discription h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.discription p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.search_palace {
+  margin: 0 185px;
+  display: flex;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+}
+
+.search_palace .quary {
+  border-radius: 8px;
+  background: #fff;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 16px;
+}
+.search_palace .btn_find {
+  background: #ff5400;
+}
+
+/* popular tour section  */
+
+.popular_section {
+  margin: 100px 0;
+}
+.popular_tour {
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+  justify-content: center;
+}
+.popular_tour .tour_discription {
+  width: 48%;
+}
+.popular_tour .tour_discription h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.popular_tour .tour_discription p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.popular_tour .tour_discription li {
+  list-style: disc;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.tour_image {
+  width: 48%;
+}
+.btn_secondary {
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 14px 35px;
+  border: none;
+}
+
+/* distination  */
+.distination_section{}
+.distination_section .discription h1{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  
+}
+.distination_section .discription p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  margin: 24px 0;
+}
+.beutifull_contry{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.Maldives,.Indonesia{
+  grid-column: span 6;
+}
+.Srilanka{
+  grid-column: span 4;
+}
+.North_America{
+  grid-column: span 5;
+}
+.Kashmir{
+  grid-column: span 3;
+}
+.Bangladesh{
+  grid-column: span 5;
+}
+.Bandarban{
+  grid-column: span 7;
+}
