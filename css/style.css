@@ -532,7 +532,7 @@ img {
   max-width: 872px;
   width: 81%;
   margin: 50px auto;
-  opacity: 04;
+  opacity: 0.4;
 }
 .footer_botom p {
   color: #131318;
@@ -598,7 +598,7 @@ img {
   display: flex;
   gap: 10px;
 }
-.customer_review .upper_part ul li .fa-regular {
+.customer_review .upper_part ul li .fa-star {
   color: #ffac33;
   font-size: 30px;
 }

@@ -128,6 +128,11 @@
   }
   .discount_section .discription h2 {
     font-size: 30px;
+
+}
+.discount_area .discount_card >p{
+    height: 48px;
+    overflow: auto;
 }
 
  
@@ -179,4 +184,5 @@ margin-bottom: 80px;
     width: 220px;
     height: 100px;
   }
+
 }
