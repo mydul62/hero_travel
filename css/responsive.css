@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   .container {
-    width: 90%;
+    width: 95%;
   }
   /* header section  */
   .header_banner {
@@ -18,7 +18,7 @@
     flex-shrink: 0;
   }
   .header_section .logo h2 a {
-    font-size: 21.5px;
+    font-size:16px;
 
   }
   .header_section .menu {
@@ -38,6 +38,9 @@
 
   .header_banner {
     padding: 32px 24px;
+  }
+  .discription h1 {
+    font-size: 22px;
   }
   .search_palace form {
     margin: 0;
@@ -93,6 +96,9 @@
 }
 
   /* services section  */
+  .our_services {
+    margin: 50px auto;
+  }
   .our_services .services {
     display: flex;
     flex-direction: column;
@@ -103,11 +109,11 @@
   }
   /* discount section  */
   .discount_area {
-    padding: 250px 25px 50px;
+    padding: 200px 15px 50px;
    flex-direction: column;
   }
   .discount_area .discount_card {
-    padding:25px;
+    padding:15px;
     width: 100%;
     height: 100%;
   }
@@ -126,6 +132,9 @@
 
  
 /* review section  */
+.footer_middle{
+margin-bottom: 80px;
+}
 .customer_review {
   max-width: 900px;
   width: 82%;
@@ -167,7 +176,7 @@
     padding: 32px 0;
   }
   .footer_image .discount {
-    width: 300px;
-    height: 110px;
+    width: 220px;
+    height: 100px;
   }
 }
