@@ -45,6 +45,11 @@ img {
   font-size: 36px;
   font-weight: 800;
 }
+.logo_name {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
 .logo img {
   width: 48px;
   height: 56.008px;
@@ -78,9 +83,12 @@ img {
   font-weight: 400;
   text-transform: capitalize;
 }
-.menu ul li:hover .menu ul li a {
+.menu ul li:hover a {
   color: #ff5400;
 }
+.header_section .menu ul li:first-child a{
+  color: #ff5400;
+} 
 /* banner section  */
 
 .header_banner {
@@ -272,7 +280,7 @@ img {
   margin: 100px auto;
 }
 
-.our_services .discription h1 {
+.our_services > .discription h2 {
   color: #131318;
   text-align: center;
   font-size: 40px;
@@ -524,8 +532,7 @@ img {
   max-width: 872px;
   width: 81%;
   margin: 50px auto;
-  height: 1px;
-  background: rgba(19, 19, 24, 0.1);
+  opacity: 0.4;
 }
 .footer_botom p {
   color: #131318;

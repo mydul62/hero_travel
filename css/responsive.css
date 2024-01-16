@@ -19,6 +19,7 @@
   }
   .header_section .logo h2 a {
     font-size: 21.5px;
+    
   }
   .header_section .menu {
     width: 20%;
@@ -38,24 +39,19 @@
   .header_banner {
     padding: 32px 24px;
   }
-  .search_palace {
+  .search_palace form {
     margin: 0;
-    display: block;
+    flex-direction: column;
   }
-  .search_palace .quary {
-    width: 94%;
-    margin-bottom: 16px;
-  }
-  .search_palace .btn_find {
-    background: #ff5400;
-  }
-  .header_banner .discription h1 {
-    font-size: 22px;
-  }
-  .header_banner .discription p {
-    font-size: 14px;
-    margin-bottom: 40px;
-  }
+  .sec-des,
+.quary,
+.primary_button {
+  width: 100%;
+  display: block;
+
+  
+}
+
   /* tour section  */
   .popular_section {
   }
