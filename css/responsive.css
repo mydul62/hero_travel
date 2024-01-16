@@ -134,8 +134,10 @@
     height: 48px;
     overflow: auto;
 }
-
- 
+/* distination  */
+.distination_section .discription h1 {
+  font-size: 30px;
+}
 /* review section  */
 .footer_middle{
 margin-bottom: 80px;
@@ -184,5 +186,6 @@ margin-bottom: 80px;
     width: 220px;
     height: 100px;
   }
+
 
 }
